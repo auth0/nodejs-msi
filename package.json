@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-msi",
+  "version": "0.0.3",
+  "description": "NodeJs MSI EXAMPLE",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auth0/nodejs-msi.git"
+  },
+  "keywords": [
+  ],
+  "author": "Auth0",
+  "license": "MIT",
+  "dependencies": {  },
+  "devDependencies": {  }
+}
