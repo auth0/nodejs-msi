@@ -32,7 +32,3 @@ Run `installer\build.ps1` on powershell.
 First the script will copy everything to a temporary directory excluding directories such as `.git`.
 
 Then we run WIX `heat.exe` to generate a wxs of all our files with a ComponentGroup (installer\directory).
-
-## License
-
-MIT - Auth10 2013
