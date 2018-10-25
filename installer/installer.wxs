@@ -58,7 +58,7 @@
       </Component>
       
       <Component Id="nssm_component" Guid="{AAAAAAAA-CBB2-4F3F-BC22-EC7AE4963FFF}" Directory="INSTALLDIR">
-        <File Id="nssm" KeyPath="yes" Source="C:\Program Files (x86)\nssm-2.21\win32\nssm.exe" />
+        <File Id="nssm" KeyPath="yes" Source="C:\Program Files (x86)\nssm-2.24\win32\nssm.exe" />
 
         <ServiceControl Id="ControlMyProductService"
                  Name="MyProduct Service"
