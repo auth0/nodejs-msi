@@ -26,7 +26,7 @@ If (Test-Path $tmp_dir\config.json){
 }
 
 #Generate the installer
-$wix_dir="c:\Program Files (x86)\WiX Toolset v3.8\bin"
+$wix_dir="c:\Program Files (x86)\WiX Toolset v3.11\bin"
 
 . "$wix_dir\heat.exe" dir $tmp_dir -srd -dr INSTALLDIR -cg MainComponentGroup -out directory.wxs -ke -sfrag -gg -var var.SourceDir -sreg -scom 
 . "$wix_dir\candle.exe" -dSourceDir="$tmp_dir" *.wxs -o output\ -ext WiXUtilExtension
